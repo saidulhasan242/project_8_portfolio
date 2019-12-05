@@ -1,0 +1,10 @@
+@font-face {
+  font-family: impact;
+  src: url(../fonts/impact.ttf);
+  src: url(../fonts/impact.eot);
+  src: url(../fonts/impact.otf);
+}
+
+{
+  font-family: impact;
+}
