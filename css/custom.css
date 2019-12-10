@@ -10,7 +10,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 #particles-js .he-content{
     position: absolute;

@@ -42,7 +42,9 @@ For large devices (lg)
 .individual-link a i {
     font-size: 50px;
 }
-
+.skill-img .plus {
+    left: 35%;
+}
 
 
 
@@ -102,6 +104,9 @@ For medium devices (md)
 }
 .copy-content {
     font-size: 16px;
+}
+#particles-js {
+    min-height: 80vh;
 }
 	
 
@@ -171,6 +176,15 @@ For small devices (sm)
 .copy-content {
     font-size: 14px;
 }
+.skill-img .plus {
+    left: 35%;
+}
+.skill-img .link {
+    left: 60%;
+}
+#particles-js {
+    min-height: 72vh;
+}
 
 
 
@@ -239,6 +253,17 @@ For extra small devices (xs)
 }
 .aval-image .btn-custom-2 {
     font-size: 13px;
+}
+.skill-img .plus {
+    font-size: 18px;
+    left: 40%;
+}
+.skill-img .link {
+    font-size: 18px;
+    left: 54%;
+}
+#particles-js {
+    min-height: 57vh;
 }
 
 
