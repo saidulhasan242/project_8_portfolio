@@ -5,16 +5,19 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-.header-section{
+#particles-js{
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-    padding-bottom: 59px;
-}
-.header-section .row{
     min-height: 100vh;
+}
+#particles-js .he-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
@@ -183,30 +186,62 @@ p{
     color: #40afcc;
 }
 .skill-img{position: relative;}
+.skill-img .plus{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-40%, -50%);
+    -webkit-transform: translate(-40%, -50%);
+    -moz-transform: translate(-40%, -50%);
+    -ms-transform: translate(-40%, -50%);
+    -o-transform: translate(-40%, -50%);
+    width: 35px;
+    height: 35px;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+
+}
+.skill-img .link{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    transform: translate(-55%, -50%);
+    -webkit-transform: translate(-55%, -50%);
+    -moz-transform: translate(-55%, -50%);
+    -ms-transform: translate(-55%, -50%);
+    -o-transform: translate(-55%, -50%);
+    width: 35px;
+    height: 35px;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+
+}
+
 .individual-skill{
     margin: 5px 0px;
 }
 .individual-skill a{
-    display: block;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: #40afcc;
-    text-decoration: none;
-    opacity: 0;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+    
 }
 .overlay{
     display: block;
@@ -227,7 +262,12 @@ p{
     opacity: 1;
     height: 100%;
 }
-.skill-img:hover a{
+.skill-img:hover .link{
+    opacity: 1;
+    top: 50%;
+    z-index: 1;
+}
+.skill-img:hover .plus{
     opacity: 1;
     top: 50%;
     z-index: 1;
