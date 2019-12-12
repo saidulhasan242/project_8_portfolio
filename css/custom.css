@@ -272,6 +272,31 @@ p{
     top: 50%;
     z-index: 1;
 }
+.my-client{
+    padding-top: 60px;
+}
+.my-client h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #40afcc;
+}
+.my-client .c-num{
+    font-family: impact;
+    font-size: 50px;
+    padding: 0;
+    color: #ff6c55;
+}
+.my-client .c-num-s{
+    font-size: 50px;
+    color: #ff6c55;
+    padding: 0;
+}
+.my-client .c-num-ss{
+    text-align: left;
+    padding: 0;
+    font-size: 35px;
+    color: #ff6c55;
+}
 .port-bar ul{
 }
 .port-menu li{
