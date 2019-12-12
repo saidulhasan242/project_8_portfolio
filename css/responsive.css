@@ -45,6 +45,16 @@ For large devices (lg)
 .skill-img .plus {
     left: 35%;
 }
+.my-client h1 {
+    font-size: 30px;
+}
+.my-client .c-num {
+    font-size: 45px;
+}
+.my-client .c-num-ss {
+    font-size: 25px;
+}
+
 
 
 
@@ -107,6 +117,15 @@ For medium devices (md)
 }
 #particles-js {
     min-height: 80vh;
+}
+.my-client h1 {
+    font-size: 23px;
+}
+.my-client .c-num {
+    font-size: 35px;
+}
+.my-client .c-num-ss {
+    font-size: 20px;
 }
 	
 
@@ -185,7 +204,15 @@ For small devices (sm)
 #particles-js {
     min-height: 72vh;
 }
-
+.my-client h1 {
+    font-size: 30px;
+}
+.my-client .c-num {
+    font-size: 30px;
+}
+.my-client .c-num-ss {
+    font-size: 20px;
+}
 
 
 
